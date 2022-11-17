@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson-13</title>
+    <link rel="stylesheet" href="./css/stail.css" />
+  </head>
+  <body>
+    <h2><a href="./index.html">Home</a></h2>
+    <p>lesson-13</p>
+
+    <!-- 1 -->
+    <!-- <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        outline: 2px solid tomato;
+      }
+
+      button {
+        margin: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <p><a href="/">На главную</a></p>
+
+    <button class="js-add-btn">Добавить кнопку</button>
+    <hr />
+
+    <div class="container js-container">
+      <button type="button">Кнопка 1</button>
+      <button type="button">Кнопка 2</button>
+      <button type="button">Кнопка 3</button>
+      <button type="button">Кнопка 4</button>
+      <button type="button">Кнопка 5</button>
+    </div> -->
+
+    <!-- 2 -->
+
+        <style>
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 8px;
+        background-color: #fff;
+        list-style: none;
+        user-select: none;
+        outline: 1px solid tomato;
+      }
+
+      .tags__item {
+        margin: 4px;
+      }
+
+      .tags__btn {
+        border: 1px solid #212121;
+        border-radius: 4px;
+        display: inline-block;
+        padding: 4px 10px 4px;
+
+        font-size: 24px;
+        font-family: inherit;
+        color: #212121;
+        font-weight: 500;
+        text-align: center;
+        white-space: nowrap;
+        text-decoration: none;
+        outline: none;
+
+        background-color: #fff;
+        cursor: pointer;
+      }
+
+      .tags__btn--active {
+        color: #fff;
+        background-color: #3f51b5;
+      }
+    </style>
+  </head>
+  <body>
+    <p><a href="/">На главную</a></p>
+
+    <ul class="tags js-tags">
+      <li class="tags__item">
+        <button class="tags__btn" data-value="html">#html</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="css">#css</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="javascript">#javascript</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="npm">#npm</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="webpack">#webpack</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="react">#react</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="redux">#redux</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="nodejs">#nodejs</button>
+      </li>
+    </ul>
+
+    <!-- Lodash library script file -->
+    <script
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+      integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Lazysizes library script file -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"
+      integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- My script file -->
+    <script src="./js/lessons/lesson-13.js" type="module"></script>
+  </body>
+</html>
